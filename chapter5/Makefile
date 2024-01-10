@@ -27,6 +27,8 @@ vmlinux.h:
 
 clean:
 	- rm $(BPF_OBJ)
+	- rm $(USER_SKEL)
+	- rm vmlinux.h
 	- rm $(TARGET)
 	- rm find-map
 
